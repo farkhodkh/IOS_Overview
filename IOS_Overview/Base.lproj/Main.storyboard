@@ -57,20 +57,26 @@
                                     <action selector="sliderValueChange:" destination="Fyk-ZK-H3d" eventType="valueChanged" id="kag-eL-Bs0"/>
                                 </connections>
                             </slider>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="I9M-vc-BpX">
+                                <rect key="frame" x="188.5" y="330" width="37" height="37"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ttt-Cq-hpr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="I9M-vc-BpX" firstAttribute="centerX" secondItem="t6X-Ya-Zja" secondAttribute="centerX" id="4Hk-uk-UMl"/>
                             <constraint firstItem="wBc-iI-RIM" firstAttribute="top" secondItem="Ttt-Cq-hpr" secondAttribute="top" constant="126" id="6M1-7e-nxe"/>
                             <constraint firstItem="wBc-iI-RIM" firstAttribute="leading" secondItem="U5K-3y-sLZ" secondAttribute="leadingMargin" id="8Cq-mz-OZ0"/>
                             <constraint firstItem="t6X-Ya-Zja" firstAttribute="top" secondItem="wBc-iI-RIM" secondAttribute="bottom" constant="69" id="8na-wt-Q2Z"/>
                             <constraint firstItem="t6X-Ya-Zja" firstAttribute="trailing" secondItem="wBc-iI-RIM" secondAttribute="trailing" id="AzL-bq-4pE"/>
+                            <constraint firstItem="Ttt-Cq-hpr" firstAttribute="bottom" secondItem="I9M-vc-BpX" secondAttribute="bottom" constant="441" id="Dl0-ca-5Hc"/>
                             <constraint firstItem="wBc-iI-RIM" firstAttribute="trailing" secondItem="U5K-3y-sLZ" secondAttribute="trailingMargin" id="ULb-U1-OXH"/>
                             <constraint firstItem="t6X-Ya-Zja" firstAttribute="leading" secondItem="wBc-iI-RIM" secondAttribute="leading" id="vw2-6I-Ukv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="yCf-uH-y5Z"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="I9M-vc-BpX" id="S5y-9L-TMp"/>
                         <outlet property="progresView" destination="wBc-iI-RIM" id="n0I-wm-n6r"/>
                     </connections>
                 </viewController>
