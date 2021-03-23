@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E82B3738260293E4005F814E /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B3737260293E4005F814E /* CollectionViewController.swift */; };
+		E82B373B26029481005F814E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B373A26029481005F814E /* CollectionViewCell.swift */; };
 		E8A4DDC8260217520064D255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4DDC7260217520064D255 /* AppDelegate.swift */; };
 		E8A4DDCA260217520064D255 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4DDC9260217520064D255 /* SceneDelegate.swift */; };
 		E8A4DDCC260217520064D255 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4DDCB260217520064D255 /* MainViewController.swift */; };
@@ -16,9 +18,14 @@
 		E8A4DDE126021A9C0064D255 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4DDE026021A9C0064D255 /* AlertViewController.swift */; };
 		E8A4DDE626022A750064D255 /* ShareDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4DDE526022A750064D255 /* ShareDataViewController.swift */; };
 		E8A4DDEA26022CE90064D255 /* SliderAndProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4DDE926022CE90064D255 /* SliderAndProgressBarViewController.swift */; };
+		E8A4DDEE260232A60064D255 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4DDED260232A60064D255 /* ImageViewController.swift */; };
+		E8A4DDF1260234C10064D255 /* UIElementWithCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4DDF0260234C10064D255 /* UIElementWithCodeViewController.swift */; };
+		E8A4DDF62602393B0064D255 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A4DDF52602393B0064D255 /* SafariViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E82B3737260293E4005F814E /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		E82B373A26029481005F814E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		E8A4DDC4260217520064D255 /* IOS_Overview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_Overview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A4DDC7260217520064D255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8A4DDC9260217520064D255 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +37,9 @@
 		E8A4DDE026021A9C0064D255 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		E8A4DDE526022A750064D255 /* ShareDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataViewController.swift; sourceTree = "<group>"; };
 		E8A4DDE926022CE90064D255 /* SliderAndProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderAndProgressBarViewController.swift; sourceTree = "<group>"; };
+		E8A4DDED260232A60064D255 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		E8A4DDF0260234C10064D255 /* UIElementWithCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementWithCodeViewController.swift; sourceTree = "<group>"; };
+		E8A4DDF52602393B0064D255 /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +75,14 @@
 				E8A4DDC7260217520064D255 /* AppDelegate.swift */,
 				E8A4DDC9260217520064D255 /* SceneDelegate.swift */,
 				E8A4DDCB260217520064D255 /* MainViewController.swift */,
+				E82B3737260293E4005F814E /* CollectionViewController.swift */,
+				E82B373A26029481005F814E /* CollectionViewCell.swift */,
 				E8A4DDE026021A9C0064D255 /* AlertViewController.swift */,
 				E8A4DDE526022A750064D255 /* ShareDataViewController.swift */,
 				E8A4DDE926022CE90064D255 /* SliderAndProgressBarViewController.swift */,
+				E8A4DDED260232A60064D255 /* ImageViewController.swift */,
+				E8A4DDF0260234C10064D255 /* UIElementWithCodeViewController.swift */,
+				E8A4DDF52602393B0064D255 /* SafariViewController.swift */,
 				E8A4DDCD260217520064D255 /* Main.storyboard */,
 				E8A4DDD0260217520064D255 /* Assets.xcassets */,
 				E8A4DDD2260217520064D255 /* LaunchScreen.storyboard */,
@@ -147,11 +162,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A4DDEA26022CE90064D255 /* SliderAndProgressBarViewController.swift in Sources */,
+				E8A4DDF62602393B0064D255 /* SafariViewController.swift in Sources */,
 				E8A4DDCC260217520064D255 /* MainViewController.swift in Sources */,
 				E8A4DDC8260217520064D255 /* AppDelegate.swift in Sources */,
+				E82B3738260293E4005F814E /* CollectionViewController.swift in Sources */,
+				E8A4DDEE260232A60064D255 /* ImageViewController.swift in Sources */,
 				E8A4DDE626022A750064D255 /* ShareDataViewController.swift in Sources */,
 				E8A4DDCA260217520064D255 /* SceneDelegate.swift in Sources */,
+				E8A4DDF1260234C10064D255 /* UIElementWithCodeViewController.swift in Sources */,
 				E8A4DDE126021A9C0064D255 /* AlertViewController.swift in Sources */,
+				E82B373B26029481005F814E /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
